@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.page-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+input[type="text"], button {
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#output {
+  margin-top: 20px;
+}
